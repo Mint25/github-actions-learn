@@ -13,6 +13,10 @@ jobs:
           who-to-greet: Mithin
       - name: checkout
         uses: actions/checkout@v1
+      - name: list 
+        run: |
+          pwd
+          ls
       - name: Log greeting time 
         run: echo "${{steps.greet.outputs.time}}"
 
