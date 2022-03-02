@@ -38,4 +38,9 @@ jobs:
           echo build tools?
           mvn --version
           gradle --version 
+          echo what is the workspace location 
+          echo $RUNNER_WORKSPACE
+          echo who is running this script 
+          whoami
+          
 
