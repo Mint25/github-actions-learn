@@ -16,7 +16,7 @@ jobs:
       - name: list 
         run: |
           pwd
-          ls
+          ls -a
       - name: Log greeting time 
         run: echo "${{steps.greet.outputs.time}}"
 
