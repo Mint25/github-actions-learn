@@ -37,5 +37,5 @@ jobs:
           git --version
           echo build tools?
           mvn --version
-          gradle --verison 
+          gradle --version 
 
