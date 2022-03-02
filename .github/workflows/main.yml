@@ -38,5 +38,4 @@ jobs:
           echo build tools?
           mvn --version
           gradle --verison 
-          
-          echo test, and deploy your project.
+
