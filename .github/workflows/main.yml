@@ -42,5 +42,9 @@ jobs:
           echo $RUNNER_WORKSPACE
           echo who is running this script 
           whoami
+          echo how is the disc laid out ?
+          df
+          echo evnvironment variables ?
+          env
           
 
